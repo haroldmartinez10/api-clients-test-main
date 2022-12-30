@@ -134,7 +134,7 @@ const Clients = () => {
                     <button onClick={handleConfirmEdit} className="bg-slate-800 mb-4 hover:bg-slate-700 text-white text-sm font-poppins py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
                       Editar
                     </button>
-                    <button onClick={() => handleClose()} className="bg-red-800 mb-4 hover:bg-red-700 text-white text-sm font-poppins py-2 px-5 rounded focus:outline-none focus:shadow-outline" type="submit">
+                    <button onClick={() => handleClose()} className="bg-red-800 mb-4 hover:bg-red-700 text-white text-sm font-poppins py-2 px-5 rounded focus:outline-none focus:shadow-outline" type="button">
                       Salir
                     </button>
                   </div>
