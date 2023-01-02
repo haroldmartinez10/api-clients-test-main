@@ -26,7 +26,6 @@ const Searchbar = () => {
     }
   })
 
-
   return (
     <>
       <div className='mb-5 flex flex-col'>

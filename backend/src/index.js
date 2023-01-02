@@ -5,8 +5,6 @@ import dotenv from 'dotenv'
 import clientRoutes from './routes/Clients.js'
 import cors from 'cors'
 
-
-
 dotenv.config()
 connectDB()
 
