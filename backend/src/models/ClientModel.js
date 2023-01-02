@@ -23,7 +23,7 @@ const clientSchema = mongoose.Schema({
   {
     timestamps: true,
     versionKey: false,
-  }
+  })
 
 const Client = mongoose.model('Client', clientSchema)
 
