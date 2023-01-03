@@ -3,6 +3,10 @@ import clientSchema from '../models/ClientModel.js'
 
 const router = express.Router()
 
+router.get('/', (req,res)=> {
+  res.json({message: 'You can try http://localhost:3000/clients to allow valid GET'})
+})
+
 router.get('/clients', (req, res) => {
   clientSchema.find().then((data) => res.json(data)).catch(error => {
     res.json(error)
